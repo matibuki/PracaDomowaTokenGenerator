@@ -25,7 +25,7 @@ public class TokenGenerator {
 
         char[] token = new char[tokenLength]; // change intial token length
         for (int j=0; j <= tokenLength-1; j++) {
-            int x = random.nextInt(68);
+            int x = random.nextInt(72);
             token[j] = allowedCharacters.charAt(x);
         }
         System.out.println("GENERATED TOKEN: ");
