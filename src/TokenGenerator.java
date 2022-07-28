@@ -20,7 +20,7 @@ public class TokenGenerator {
                 System.out.println("Your token length is : " + tokenLength + ". Please choose between 5, 10 or 15");
             }
 
-            String allowedCharacters = "abcdefghijklmnoprstuwxyzABCDEFGHIJKLMNOPRSTUWXYZ1234567890!@#$%^&*()";
+            String allowedCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOQPRSTUVWXYZ1234567890!@#$%^&*()";
         Random random = new Random();
 
         char[] token = new char[tokenLength]; // change intial token length
